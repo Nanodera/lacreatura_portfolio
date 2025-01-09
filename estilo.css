@@ -1,0 +1,299 @@
+/* seletor{propriedade:valor;} */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: BrittanySignature;
+  src: url(./fontes/BrittanySignature.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e1c6d8;
+}
+
+header,
+img {
+  width: 100%;
+  height: 350px;
+}
+
+nav {
+  background-color: #561c68;
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.a-menu {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-right: 35px;
+}
+
+.a-menu:link,
+.a-menu:visited {
+  color: #ffffff;
+}
+
+.a-menu:hover,
+.a-menu:active {
+  color: #dfb1cf;
+}
+
+article {
+  width: 100%;
+  background-color: #e1c6d8;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: BrittanySignature, Helvetica, cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #561c68;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 2.1em;
+  font-family: Pacifico, cursive;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #561c68;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+li {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 1.2em;
+}
+
+#pag-inspiracoes {
+  background-color: #561c68;
+  text-align: center;
+  padding: 20px;
+}
+
+#pag-inspiracoes h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+#pag-inspiracoes p {
+  color: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#pag-inspiracoes a {
+  color: #ffffff;
+}
+
+#container {
+  display: flex;
+  margin-top: 15px;
+}
+
+#pag-lascreaturas p {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: #ffffff;
+  margin: 10px;
+  width: 25%;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #915fa5;
+  transition: 0.45s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px #915fa5;
+}
+
+.card p {
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  color: black;
+  text-align: justify;
+  line-height: 20px;
+}
+
+h3 {
+  font-family: Roboto, sans-serif;
+  font-size: 1.6em;
+  text-align: center;
+  color: #561c68;
+  margin-bottom: 10px;
+}
+
+#container-animacao {
+  display: flex;
+  background-color: #561c68;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#container-animacao h2 {
+  color: #ffffff;
+}
+
+#container-animacao p {
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+#container-imgs {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-icon {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+video {
+  width: 700px;
+  margin-top: 35px;
+}
+
+.coluna-animacao {
+  padding: 20px;
+}
+
+footer {
+  padding: 10px;
+  justify-content: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a:hover {
+  color: #ce53a3;
+}
+
+/* pagina comissoes */
+
+h1 {
+  margin-top: 20px;
+}
+
+#pag-agendamentos p {
+  margin-bottom: 20px;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  font: 1rem Roboto, sans-serif;
+}
+
+label,
+fieldset,
+input,
+select {
+  font-family: Roboto, sans-serif;
+}
+
+fieldset {
+  border: 1px solid #918989;
+  padding: 10px;
+}
+
+#data-hora-num {
+  display: flex;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin-left: 50px;
+}
+
+textarea {
+  height: 80px;
+}
+
+#botoes-formulario {
+  display: flex;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  margin: 20px;
+  background-color: rgb(169, 194, 127);
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+}
+
+input[type="reset"] {
+  background-color: rgb(224, 85, 113);
+}
+
+#foot-com {
+  font-family: Roboto, sans-serif;
+  background-color: #561c68;
+  text-align: center;
+  padding: 10px;
+}
+
+#foot-com p {
+  color: #ffffff;
+}
+
+#foot-com a {
+  color: #ffffff;
+}
+
+#foot-com a:hover {
+  color: #ce53a3;
+}

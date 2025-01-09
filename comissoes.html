@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Fe Borsellino" />
+    <meta
+      name="keywords"
+      content="ilustração, portfolio, arte, criaturas, desenho"
+    />
+    <meta
+      name="description"
+      content="Portfólio com ilustrações e animações por Fe Borsellino."
+    />
+    <link rel="stylesheet" href="estilo.css" />
+
+    <title>Comissões</title>
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="img/bannre_2.png"
+        alt="banner contendo um desenho de uma criatura
+   e o nome do portfolio, juntamente com o autor"
+        width="100%"
+        height="400
+  "
+      />
+    </header>
+    <nav>
+      <a class="a-menu" target="_self" href="index.html">Home</a>
+      <a class="a-menu" target="_self" href="index.html#pag-inspiracoes"
+        >Inspirações</a
+      >
+      <a class="a-menu" target="_self" href="index.html#pag-lascreaturas"
+        >Las Creaturas</a
+      >
+      <a class="a-menu" target="_self" href="index.html#pag-video">Animação</a>
+      <a class="a-menu" target="_self" href="#">Comissões</a>
+    </nav>
+
+    <section id="pag-comissoes">
+      <h1>Comissões</h1>
+
+      <p>
+        Encomende agora sua própria <em>La Creatura</em>. Basta preencher o
+        formulário abaixo e aguardar para se tornar uma criaturinha!
+      </p>
+
+      <form name="comissoes" method="" action="">
+        <label for="nome">Nome:</label> <br />
+        <input
+          id="nome"
+          type="text"
+          name="nome_completo"
+          placeholder="Digite seu nome completo"
+          required="true"
+          autofocus
+        />
+
+        <label for="email">E-mail:</label> <br />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="nome@exemplo.com"
+          required="true"
+        />
+
+        <label for="senha">Senha:</label> <br />
+        <input
+          id="senha"
+          type="password"
+          name="senha"
+          placeholder="Somente números"
+          required="true"
+        />
+
+        <label for="celular">Celular:</label> <br />
+        <input
+          id="celular"
+          type="tel"
+          name="celular"
+          placeholder="(99) 9 9999-9999"
+          required="true"
+          pattern="\(?\d{2}\)\d{5}[-\s]\d{4}.*?$"
+        />
+
+        <div id="data-hora-num">
+          <div>
+            <label for="data">Data:</label>
+            <input id="data" type="date" name="data" required="true" />
+          </div>
+
+          <div>
+            <label for="hora">Hora:</label>
+            <input id="hora" type="time" name="hora" />
+          </div>
+
+          <div>
+            <label for="quantidade">Qtd:</label>
+            <input
+              id="quantidade"
+              type="number"
+              name="quantidade"
+              min="1"
+              max="5"
+              step="1"
+            /><br />
+          </div>
+        </div>
+
+        <label for="tipo">Tipo de Ilustração:</label><br />
+        <select name="tipo" id="tipo" required="true">
+          <option>Selecione</option>
+          <option value="rascunho">Rascunho</option>
+          <option value="apenas_Line">Apenas line</option>
+          <option value="cor_chapada">Cor chapada</option>
+          <option value="renderizado">Renderizado</option>
+        </select>
+        <br />
+        <fieldset>
+          <legend>Tamanho Ilustração:</legend>
+          <input id="icon" type="radio" name="tamanho" value="icon" />
+          <label for="icon">Icon</label> <br />
+          <input id="halfb" type="radio" name="tamanho" value="halfb" />
+          <label for="halfb">Half-body</label> <br />
+          <input id="fullb" type="radio" name="tamanho" value="fullb" />
+          <label for="fullb">Full-body</label> <br />
+          <input id="fullwb" type="radio" name="tamanho" value="fullwb" />
+          <label for="fullwb">Full + Background</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Personagens:</legend>
+          <input type="checkbox" name="personagem" id="ump" />
+          <label for="ump">Original</label> <br />
+          <input type="checkbox" name="personagem" id="doisp" />
+          <label for="doisp">Fanart</label><br />
+          <input type="checkbox" name="personagem" id="tresmaisp" />
+          <label for="tresmaisp">Criar novo</label><br />
+        </fieldset>
+
+        <label for="msg">Mensagem</label> <br />
+        <textarea name="msg" id="msg" cols="52" rows="4"></textarea>
+
+        <div id="botoes-formulario">
+          <input type="submit" name="btn-encomendar" value="ENCOMENDAR" id="" />
+          <input type="reset" name="btn-cancelar" value="CANCELAR" id="" />
+        </div>
+      </form>
+    </section>
+
+    <footer id="foot-com">
+      <p>
+        Desenvolvido por
+        <strong
+          ><a
+            target="_blank"
+            href="https://www.linkedin.com/in/fernanda-borsellino-2b76151bb/"
+            >Fernanda Borsellino</a
+          ></strong
+        >-2024
+      </p>
+    </footer>
+  </body>
+</html>
