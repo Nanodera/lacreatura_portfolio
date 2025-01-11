@@ -12,14 +12,27 @@
   padding: 0;
 }
 
+.main-div {
+  min-width: 320px;
+  max-width: 860px;
+  margin: auto;
+}
+
 body {
   background-color: #e1c6d8;
 }
 
-header,
-img {
-  width: 100%;
+header {
   height: 350px;
+  text-align: center;
+}
+
+#img-banner {
+  height: 350px;
+}
+
+#banner {
+  background-color: #ffefe5;
 }
 
 nav {
@@ -116,6 +129,10 @@ li {
   color: #ffffff;
 }
 
+#pag-inspiracoes a:hover {
+  color: #ce53a3;
+}
+
 #container {
   display: flex;
   margin-top: 15px;
@@ -146,6 +163,10 @@ li {
   color: black;
   text-align: justify;
   line-height: 20px;
+}
+
+.card img {
+  width: 100%;
 }
 
 h3 {
@@ -221,6 +242,11 @@ h1 {
 form {
   width: 400px;
   margin: 0 auto;
+  background-color: #915fa5;
+  border-radius: 8px;
+  padding: 10px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 input,
@@ -269,7 +295,7 @@ textarea {
 input[type="submit"],
 input[type="reset"] {
   margin: 20px;
-  background-color: rgb(169, 194, 127);
+  background-color: rgb(144, 185, 73);
   color: #ffffff;
   border: 0;
   border-radius: 5px;
